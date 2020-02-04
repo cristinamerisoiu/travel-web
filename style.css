@@ -38,4 +38,25 @@ nav {
     display: flex;
     width: 90%;
     margin: auto;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style:none;
+}
+#logo {
+    flex: 2 1 40rem;
+}
+
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5), transparent), url(/resources/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
