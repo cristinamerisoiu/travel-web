@@ -1,2 +1,2 @@
 # travel-web
-A small website travel project
+A small travel website project focused on design.
